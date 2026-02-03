@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeScript Crud App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body class="has-background-light">
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="box has-shadow">
+          <h1 class="title has-text-centered has-text-primary is-3">
+            📝 TypeScript Crud App
+          </h1>
+
+          <div class="field has-addons mb-4">
+            <div class="control is-expanded">
+              <input
+                id="todoInput"
+                class="input is-rounded is-medium"
+                type="text"
+                placeholder="What do you need to do?"
+              />
+            </div>
+            <div class="control">
+              <button class="button is-primary is-rounded is-medium" id="add">
+                <span class="icon"><i class="fas fa-plus"></i></span>
+                <span>Add</span>
+              </button>
+            </div>
+          </div>
+
+          <ul id="todoList" class="content"></ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

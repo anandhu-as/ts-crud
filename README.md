@@ -1,2 +1,2 @@
 Typescript Crud App 🧾✏️
-This project demonstrates CRUD operations using "Vanilla TypeScript", HTML, and Bulma css framework  
+This project demonstrates CRUD operations using "Vanilla TypeScript", HTML, and Bulma css framework  .
